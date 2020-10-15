@@ -1,4 +1,4 @@
-﻿<#
+<#
 	.SYNOPSIS
 	Default preset file for "Windows 10 Sophia Script"
 
@@ -135,11 +135,11 @@ DisableWindowsWelcomeExperience
 
 # Get tip, trick, and suggestions as you use Windows (current user only)
 # Получать советы, подсказки и рекомендации при использованию Windows (только для текущего пользователя)
-EnableWindowsTips
+# EnableWindowsTips
 
 # Do not get tip, trick, and suggestions as you use Windows (current user only)
 # Не получать советы, подсказки и рекомендации при использованию Windows (только для текущего пользователя)
-# DisableWindowsTips
+DisableWindowsTips
 
 # Do not show suggested content in the Settings app (current user only)
 # Не показывать рекомендуемое содержимое в приложении "Параметры" (только для текущего пользователя)
@@ -185,7 +185,7 @@ DisableBingSearch
 #region UI & Personalization
 # Show "This PC" on Desktop (current user only)
 # Отобразить "Этот компьютер" на рабочем столе (только для текущего пользователя)
-ShowThisPC
+# ShowThisPC
 
 # Do not show "This PC" on Desktop (current user only)
 # Не отображать "Этот компьютер" на рабочем столе (только для текущего пользователя)
@@ -345,11 +345,11 @@ HideWindowsInkWorkspace
 
 # Always show all icons in the notification area (current user only)
 # Всегда отображать все значки в области уведомлений (только для текущего пользователя)
-ShowTrayIcons
+# ShowTrayIcons
 
 # Do not show all icons in the notification area (current user only)
 # Не отображать все значки в области уведомлений (только для текущего пользователя)
-# HideTrayIcons
+HideTrayIcons
 
 # Unpin "Microsoft Edge" and "Microsoft Store" from the taskbar (current user only)
 # Открепить Microsoft Edge и Microsoft Store от панели задач (только для текущего пользователя)
@@ -357,7 +357,7 @@ UnpinTaskbarEdgeStore
 
 # View the Control Panel icons by: large icons (current user only)
 # Просмотр иконок Панели управления как: крупные значки (только для текущего пользователя)
-ControlPanelLargeIcons
+# ControlPanelLargeIcons
 
 # View the Control Panel icons by: category (current user only)
 # Просмотр значки Панели управления как "категория" (только для текущего пользователя)
@@ -369,7 +369,7 @@ ControlPanelLargeIcons
 
 # Set the Windows mode color scheme to the dark (current user only)
 # Установить цвет режима Windows по умолчанию на темный (только для текущего пользователя)
-WindowsColorSchemeDark
+# WindowsColorSchemeDark
 
 # Set the default app mode color scheme to the light (current user only)
 # Установить цвет режима приложений по умолчанию на светлый (только для текущего пользователя)
@@ -377,7 +377,7 @@ WindowsColorSchemeDark
 
 # Set the default app mode color scheme to the dark (current user only)
 # Установить цвет режима приложений по умолчанию на темный (только для текущего пользователя)
-AppModeDark
+# AppModeDark
 
 # Do not show the "New App Installed" indicator
 # Не показывать уведомление "Установлено новое приложение"
@@ -537,11 +537,11 @@ DisableDeliveryOptimization
 
 # Always wait for the network at computer startup and logon for workgroup networks
 # Всегда ждать сеть при запуске и входе в систему для рабочих групп
-AlwaysWaitNetworkStartup
+# AlwaysWaitNetworkStartup
 
 # Never wait for the network at computer startup and logon for workgroup networks
 # Никогда ждать сеть при запуске и входе в систему для рабочих групп
-# NeverWaitNetworkStartup
+NeverWaitNetworkStartup
 
 # Do not let Windows decide which printer should be the default one (current user only)
 # Не разрешать Windows решать, какой принтер должен использоваться по умолчанию (только для текущего пользователя)
@@ -650,7 +650,7 @@ DisallowPCTurnOffDevice
 
 # Set the default input method to the English language
 # Установить метод ввода по умолчанию на английский язык
-SetEnglishDefaultInputMethod
+# SetEnglishDefaultInputMethod
 
 # Reset the default input method
 # Сбросить метод ввода по умолчанию
@@ -658,11 +658,11 @@ SetEnglishDefaultInputMethod
 
 # Enable Windows Sandbox
 # Включить Windows Sandbox
-EnableWindowsSandbox
+# EnableWindowsSandbox
 
 # Disable Windows Sandbox
 # Выключить Windows Sandbox
-# DisableWindowsSandbox
+DisableWindowsSandbox
 
 <#
 	Change the location of the user folders to any drives root (current user only)
@@ -673,7 +673,7 @@ EnableWindowsSandbox
 	По умолчанию предлагается переместить в корень любого диска на выбор с помощью интерактивного меню
 	Пользовательские файлы и папки не будут перемещены в новое расположение
 #>
-ChangeUserShellFolderLocation
+# ChangeUserShellFolderLocation
 
 <#
 	Change the location of the user folders to the default values (current user only)
@@ -760,27 +760,27 @@ DisableAutoplay
 
 # Disable thumbnail cache removal
 # Отключить удаление кэша миниатюр
-DisableThumbnailCacheRemoval
+# DisableThumbnailCacheRemoval
 
 # Enable thumbnail cache removal
 # Включить удаление кэша миниатюр
-# EnableThumbnailCacheRemoval
+EnableThumbnailCacheRemoval
 
 # Automatically save my restartable apps when signing out and restart them after signing in (current user only)
 # Автоматически сохранять мои перезапускаемые приложения при выходе из системы и перезапускать их после выхода (только для текущего пользователя)
-EnableSaveRestartableApps
+# EnableSaveRestartableApps
 
 # Do not automatically save my restartable apps when signing out and restart them after signing in
 # Не сохранять автоматически мои перезапускаемые приложения при выходе из системы и перезапускать их после выхода
-# DisableSaveRestartableApps
+DisableSaveRestartableApps
 
 # Enable "Network Discovery" and "File and Printers Sharing" for workgroup networks
 # Включить сетевое обнаружение и общий доступ к файлам и принтерам для рабочих групп
-EnableNetworkDiscovery
+# EnableNetworkDiscovery
 
 # Disable "Network Discovery" and "File and Printers Sharing" for workgroup networks
 # Выключить сетевое обнаружение и общий доступ к файлам и принтерам для рабочих групп
-# DisableNetworkDiscovery
+DisableNetworkDiscovery
 
 # Automatically adjust active hours for me based on daily usage
 # Автоматически изменять период активности для этого устройства на основе действий
@@ -826,7 +826,7 @@ RunCMDShortcutElevated
 
 # Unpin all the Start tiles
 # Открепить все ярлыки от начального экрана
-UnpinAllStartTiles
+# UnpinAllStartTiles
 
 <#
 	Pin the "Control Panel" shortcut to Start within syspin
@@ -835,7 +835,7 @@ UnpinAllStartTiles
 	http://www.technosys.net/products/utils/pintotaskbar
 	SHA256: 6967E7A3C2251812DD6B3FA0265FB7B61AADC568F562A98C50C345908C6E827
 #>
-PinControlPanel
+# PinControlPanel
 
 <#
 	Pin the old-style "Devices and Printers" shortcut to Start within syspin
@@ -844,7 +844,7 @@ PinControlPanel
 	http://www.technosys.net/products/utils/pintotaskbar
 	SHA256: 6967E7A3C2251812DD6B3FA0265FB7B61AADC568F562A98C50C345908C6E827
 #>
-PinDevicesPrinters
+# PinDevicesPrinters
 
 <#
 	Pin the Command Prompt" shortcut to Start within syspin
@@ -853,7 +853,7 @@ PinDevicesPrinters
 	http://www.technosys.net/products/utils/pintotaskbar
 	SHA256: 6967E7A3C2251812DD6B3FA0265FB7B61AADC568F562A98C50C345908C6E827
 #>
-PinCommandPrompt
+# PinCommandPrompt
 #endregion Start menu
 
 #region UWP apps
@@ -877,7 +877,7 @@ UninstallUWPApps
 	Расширение может быть установлено без учетной записи Microsoft бесплатно вместо 0,99 $
 	Для работы необходимо приложение "Кино и ТВ"
 #>
-InstallHEVC
+# InstallHEVC
 
 # Turn off Cortana autostarting
 # Удалить Кортана из автозагрузки
@@ -916,7 +916,7 @@ DisableXboxGameTips
 	Установить параметры производительности графики для отдельных приложений на "Высокая производительность"
 	Только при наличии внешней видеокарты
 #>
-SetAppGraphicsPerformance
+# SetAppGraphicsPerformance
 
 <#
 	Turn on hardware-accelerated GPU scheduling. Restart needed
@@ -925,7 +925,7 @@ SetAppGraphicsPerformance
 	Включить планирование графического процессора с аппаратным ускорением. Необходима перезагрузка
 	Только при наличии внешней видеокарты и WDDM версии 2.7 и выше
 #>
-EnableGPUScheduling
+# EnableGPUScheduling
 
 # Turn off hardware-accelerated GPU scheduling. Restart needed
 # Выключить планирование графического процессора с аппаратным ускорением. Необходима перезагрузка
@@ -976,7 +976,7 @@ CreateTempTask
 #region Microsoft Defender & Security
 # Enable Controlled folder access and add protected folders
 # Включить контролируемый доступ к папкам и добавить защищенные папки
-AddProtectedFolders
+# AddProtectedFolders
 
 # Remove all added protected folders
 # Удалить все добавленные защищенные папки
@@ -984,7 +984,7 @@ AddProtectedFolders
 
 # Allow an app through Controlled folder access
 # Разрешить работу приложения через контролируемый доступ к папкам
-AddAppControlledFolder
+# AddAppControlledFolder
 
 # Remove all allowed apps through Controlled folder access
 # Удалить все добавленные разрешенные приложение через контролируемый доступ к папкам
@@ -1000,7 +1000,7 @@ AddDefenderExclusionFolder
 
 # Add a file to the exclusion from Microsoft Defender scanning
 # Добавить файл в список исключений сканирования Microsoft Defender
-AddDefenderExclusionFile
+# AddDefenderExclusionFile
 
 # Remove all excluded files from Microsoft Defender scanning
 # Удалить все файлы из списка исключений сканирования Microsoft Defender
@@ -1024,11 +1024,11 @@ EnablePUAppsDetection
 
 # Run Microsoft Defender within a sandbox
 # Запускать Microsoft Defender в песочнице
-EnableDefenderSandbox
+# EnableDefenderSandbox
 
 # Do not run Microsoft Defender within a sandbox
 # Не запускать Microsoft Defender в песочнице
-# DisableDefenderSandbox
+DisableDefenderSandbox
 
 # Dismiss Microsoft Defender offer in the Windows Security about signing in Microsoft account
 # Отклонить предложение Microsoft Defender в "Безопасность Windows" о входе в аккаунт Microsoft
@@ -1040,11 +1040,11 @@ DismissSmartScreenFilter
 
 # Turn on events auditing generated when a process is created or starts
 # Включить аудит событий, возникающих при создании или запуске процесса
-EnableAuditProcess
+#EnableAuditProcess
 
 # Turn off events auditing generated when a process is created or starts
 # Выключить аудит событий, возникающих при создании или запуске процесса
-# DisableAuditProcess
+DisableAuditProcess
 
 <#
 	Include command line in process creation events
@@ -1053,7 +1053,7 @@ EnableAuditProcess
 	Включать командную строку в событиях создания процесса
 	Необходимо включить аудит событий, чтобы работала данная опция (функция "EnableAuditProcess")
 #>
-EnableAuditCommandLineProcess
+#EnableAuditCommandLineProcess
 
 # Do not include command line in process creation events
 # Не включать командную строку в событиях создания процесса
@@ -1066,7 +1066,7 @@ EnableAuditCommandLineProcess
 	Создать настаиваемое представление "Создание процесса" в Просмотре событий
 	Необходимо включить аудит событий и командной строки в событиях создания процесса, чтобы работал данный функционал (функция "EnableAuditProcess")
 #>
-CreateEventViewerCustomView
+#CreateEventViewerCustomView
 
 # Remove "Process Creation" Event Viewer Custom View
 # Удалить настаиваемое представление "Создание процесса" в Просмотре событий
@@ -1116,7 +1116,7 @@ DisableWindowsScriptHost
 #region Context menu
 # Add the "Extract all" item to Windows Installer (.msi) context menu
 # Добавить пункт "Извлечь все" в контекстное меню Windows Installer (.msi)
-AddMSIExtractContext
+#AddMSIExtractContext
 
 # Remove the "Extract all" item from Windows Installer (.msi) context menu
 # Удалить пункт "Извлечь все" из контекстного меню Windows Installer (.msi)
@@ -1212,11 +1212,11 @@ HideSendToContext
 
 # Hide the "Turn on BitLocker" item from the context menu
 # Скрыть пункт "Включить BitLocker" из контекстного меню
-HideBitLockerContext
+# HideBitLockerContext
 
 # Show the "Turn on BitLocker" item in the context menu
 # Показывать пункт "Включить BitLocker" в контекстном меню
-# ShowBitLockerContext
+ShowBitLockerContext
 
 # Remove the "Bitmap image" item from the "New" context menu
 # Удалить пункт "Точечный рисунок" из контекстного меню "Создать"
